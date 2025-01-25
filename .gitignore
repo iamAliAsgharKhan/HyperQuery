@@ -1,0 +1,19 @@
+# .gitignore
+.env
+.env.*
+!.env.example  # Optional: Keep an example template
+
+# Python specific
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.swp
+
+# Virtual Environment
+venv/
+.env/
+env/
+
+# IDE
+.vscode/
+.idea/

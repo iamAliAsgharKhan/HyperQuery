@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyperQuery - AI Database Interface</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>HyperQuery</h1>
+            <p>Transform natural language into powerful database queries</p>
+        </header>
+        
+        <div class="query-box">
+            <div class="input-group">
+                <input type="text" id="queryInput" 
+                       placeholder=" ">
+                <button onclick="handleQuery()">
+                    <span class="button-text">Run Query</span>
+                    <span class="button-icon">→</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="results-section">
+            <div class="sql-preview" id="sqlPreview"></div>
+            <div id="resultsContainer"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
