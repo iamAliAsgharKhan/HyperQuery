@@ -74,8 +74,8 @@ HyperQuery transforms natural language questions into SQL queries using cutting-
 
 ```bash
 # Clone repo
-git clone https://github.com/yourusername/hyperquery.git
-cd hyperquery
+git clone https://github.com/iamAliAsgharKhan/HyperQuery.git
+cd HyperQuery
 
 # Install dependencies
 pip install -r requirements.txt
@@ -124,10 +124,8 @@ WHERE p.name LIKE '%Laptop%'
 ## Security Considerations
 
 - All queries are executed as read-only SELECT
-
-
 ---
 
 **Created with ❤️ by Ali Asghar**  
 
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/hyperquery?style=social)](https://github.com/yourusername/hyperquery)
+[![GitHub Stars](https://img.shields.io/github/stars/iamAliAsgharKhan/HyperQuery?style=social)](https://github.com/iamAliAsgharKhan/HyperQuery)
