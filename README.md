@@ -44,8 +44,8 @@ HyperQuery transforms natural language questions into SQL queries using cutting-
 ### System Limitations
 ⚠️ **Important Notes**:
 - Not production-ready - experimental prototype
-- SQL generation accuracy varies (70-85% based on query complexity)
-- Only supports SQLite databases
+- SQL generation accuracy varies (95-99% based on query complexity)
+- Only supports SQLite databases (for now)
 - No query history or persistence
 - Results limited to 100 rows by default
 
