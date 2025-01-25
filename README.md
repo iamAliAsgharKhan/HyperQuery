@@ -95,8 +95,9 @@ uvicorn backend.main:app --reload
 1. Access web interface at `http://localhost:8000`
 2. Try natural language queries:
    - "Show top 5 customers by total orders"
-   - "List electronics products under $500"
-   - "Display pending orders from New York"
+   - "Show total sales for each main product category last month"
+   - "List customers who spent over $2000 in the last 3 months"
+   - "Display products with average rating below 5 stars"
 
 **Pro Tip**: Include table names and limited specific columns in your queries for better accuracy!
 
