@@ -122,11 +122,25 @@ JOIN products p ON o.product_id = p.id
 WHERE p.name LIKE '%Laptop%'
 ```
 
+## Learn More
+
+📖 **Read the Medium Article**:  
+[Building HyperQuery: A Natural Language Interface for SQL Databases](https://medium.com/@iAliAsghar/building-hyperquery-a-natural-language-interface-for-sql-databases-609db76d488e)  
+
+🎥 **Watch the YouTube Demo**:  
+[HyperQuery Demo Video](https://youtu.be/8hQs51yiOHw)  
+
 ## Security Considerations
 
 - All queries are executed as read-only SELECT
 ---
 
+
 **Created with ❤️ by Ali Asghar**  
 
 [![GitHub Stars](https://img.shields.io/github/stars/iamAliAsgharKhan/HyperQuery?style=social)](https://github.com/iamAliAsgharKhan/HyperQuery)
+
+[![Medium Article](https://img.shields.io/badge/Medium-Read%20Article-black)](https://medium.com/@iAliAsghar/building-hyperquery-a-natural-language-interface-for-sql-databases-609db76d488e)  
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Watch%20Demo-red)](https://youtu.be/8hQs51yiOHw)  
+
+
